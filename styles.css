@@ -1,0 +1,47 @@
+.team-member img {
+    width: 75px; /* Ajusta el ancho de la imagen según lo necesites */
+    height: auto; /* Esto permite mantener la proporción de la imagen */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centro de todo el contenido */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: inline-block; /* Para centrar el contenido */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: left; /* Ajuste opcional si deseas que el texto de los integrantes esté alineado a la izquierda */
+}
